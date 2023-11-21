@@ -1,0 +1,53 @@
+
+.card {
+    width: 300px; /* Largura fixa dos cards */
+    height: auto; /* Altura fixa dos cards */
+    margin: 10px; /* Espaçamento entre os cards */
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    flex: 1; /* Ocupar todo o espaço disponível no card */
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Tamanho da fonte do título */
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Tamanho da fonte do texto */
+  }
+  
+  .btn-tgl {
+    background-color: #29277a;
+    color: #fff;
+  }
+
+  
+  .card-content {
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  ul {
+    list-style:circle;
+  }
+  
